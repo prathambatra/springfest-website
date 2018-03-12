@@ -1,0 +1,25 @@
+/* external css: flickity.css */
+@import url('https://unpkg.com/flickity@2.0.10/dist/flickity.css');
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: transparent;
+}
+
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+.flickity-page-dots .dot{
+  display: none;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
+}
